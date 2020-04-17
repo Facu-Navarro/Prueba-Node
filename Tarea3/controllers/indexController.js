@@ -5,7 +5,6 @@ const controlador = {
         res.render('index', main);
     },
 
-
 };
 
 module.exports = controlador;
