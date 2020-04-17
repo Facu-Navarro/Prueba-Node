@@ -3,7 +3,7 @@ const heroes = require("../data/data");
 const controlador = {
 
     Consulta : (req, res) => {
-        res.send(heroes);
+        res.render(heroes);
     },
 
     MostrarHeroe : (req, res) => {
@@ -19,9 +19,9 @@ const controlador = {
             }
         }
         if(respuesta == 1){
-            res.send("<h1>Heroe Elegido: " + heroeElegido.nombre +"</h1><h1>Profesion: " + heroeElegido.profesion +"</h1>");
+            res.render("<h1>Heroe Elegido: " + heroeElegido.nombre +"</h1><h1>Profesion: " + heroeElegido.profesion +"</h1>");
         } else{
-            res.send("<h1>Heroe no encontrado</h1>");
+            res.render("<h1>Heroe no encontrado</h1>");
         }
     },
 
