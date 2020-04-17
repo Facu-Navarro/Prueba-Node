@@ -1,0 +1,22 @@
+{
+  "name": "tarea2",
+  "version": "1.0.0",
+  "description": "Tarea 2 - express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Facu-Navarro/Tarea2.git"
+  },
+  "author": "facu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Facu-Navarro/Tarea2/issues"
+  },
+  "homepage": "https://github.com/Facu-Navarro/Tarea2#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
