@@ -1,0 +1,131 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.encabezado{
+    border-bottom: 1px solid black;
+    text-align: left;
+    padding-bottom: 20px;
+}
+.cuerpo{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.seccionB{
+    width: 300px;
+    padding-right: 15px;
+}
+.seccionC{
+    width: 610px;
+    padding-left: 15px;
+    border-left: 1px solid black;
+    display: block;
+}
+.linksMenu{
+    color: black;
+    text-decoration: transparent;
+    font-size: 13px;
+}
+.tituloSeccion{
+    padding-bottom: 20px;
+    width: 610px
+}
+.subBloqueC{
+    padding-left: 20px;
+    width: 610px;
+    display: flex;
+}
+.subA{
+    max-width: 200px;
+}
+.subB{
+    padding-left: 30px;
+}
+.subC{
+    padding-left: 20px;
+    width: 100%;
+}
+.img{
+    border: 1px solid lightgrey;
+}
+.seccIt{
+    line-height: 10px;
+    padding-bottom: 10px;
+}
+.artP{
+    font-size: 10px;
+}
+.h6mod{
+    line-height: 2px;
+}
+.footerC{
+    display: flex;
+    width: 910px;
+}
+.fooDivL{
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 70%;
+    background-color: gray;
+}
+.fooDivR{
+    width: 30%;
+    background-color: grey;
+}
+.contaLink{
+    color: white;
+    text-decoration: transparent;
+}
+.contenido1{
+    width: 910;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.formularioContacto{
+    padding-left: 20px;
+    border: 1px solid orange;
+    background-color: rgb(245, 245, 245);
+}
+.formSelect{
+    width: 130px;
+}
+.d-inline{
+    display: inline-block;
+}
+.comentarios{
+    width: 400px;
+    min-height: 100px;
+}
+.inputDatos{
+    padding: 1px;
+    margin: 3px;
+}
+.btn-o{
+    text-align: center;
+    color: black;
+    padding: 4px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: orange;
+    border: 0px;
+    border-radius: 5px;
+    width: 180px;
+    text-decoration: transparent;
+}
+.btn-w{
+    text-align: center;
+    color: black;
+    padding: 4px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: 1px solid orange;
+    border-radius: 5px;
+    width: 180px;
+    text-decoration: transparent;
+}
+.d-flex{
+    display: flex;
+}
